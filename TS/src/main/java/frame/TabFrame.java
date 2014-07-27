@@ -7,6 +7,11 @@ import javax.swing.*;
 
 import tabbedpane.ClosableTabbedPane;
 
+/***
+ * 
+ * @author Oswald K. Arbuah
+ *
+ */
 public class TabFrame extends JFrame {
 	private ClosableTabbedPane tabbedPane;
 
@@ -20,7 +25,10 @@ public class TabFrame extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 	}
-
+	
+	/**
+	 * Inclusion of file menu
+	 */
 	private void addMenu() {
 		// Create menu for adding tabs
 		JMenuBar menuBar = new JMenuBar();
